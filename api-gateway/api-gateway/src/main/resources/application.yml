@@ -1,0 +1,16 @@
+eureka:
+  client:
+    serivceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  cloud:
+    
+    config:
+      enabled: 'false'
+   
+  application:
+    name: api-gateway
+server:
+  port: '8765'
+  
+ 
